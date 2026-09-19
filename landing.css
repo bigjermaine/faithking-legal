@@ -149,6 +149,52 @@ body.landing {
   color: #000;
 }
 
+.coming-soon-pill {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(240, 210, 100, 0.15);
+  color: var(--gold-bright);
+  border: 1px solid rgba(240, 210, 100, 0.35);
+}
+
+.coming-soon-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.65rem 1.15rem 0.7rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--cream);
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  cursor: default;
+}
+
+.coming-soon-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.coming-soon-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--gold-bright);
+}
+
+.coming-soon-badge-light {
+  background: #fff;
+  border-color: #d8d0e8;
+  color: var(--ink);
+}
+
+.coming-soon-badge-light .coming-soon-title {
+  color: var(--purple-mid);
+}
+
 .hero {
   position: relative;
   z-index: 1;
