@@ -4,120 +4,198 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Faith Kings and Queens — Seek God before your scroll</title>
-  <meta name="description" content="Faith Kings and Queens helps you build a daily prayer and Bible rhythm — and locks distracting apps until you seek Him first.">
+  <meta name="description" content="Build a morning rhythm of prayer and Bible reading. Lock distracting apps until you seek Him first — on iPhone, with Apple Screen Time.">
   <meta property="og:title" content="Faith Kings and Queens">
   <meta property="og:description" content="Reclaim your phone. Strengthen your faith.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.faithkingsandqueens.com/">
+  <meta property="og:image" content="https://www.faithkingsandqueens.com/assets/app-icon.png">
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="landing.css">
-  <!-- Replace with your App Store URL when live -->
   <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID">
 </head>
 <body class="landing">
+  <div class="page-glow" aria-hidden="true"></div>
+
   <header class="landing-header">
     <div class="landing-header-inner">
-      <a class="brand" href="#">Faith Kings and Queens</a>
+      <a class="brand" href="#">
+        <img src="assets/app-icon.png" alt="" width="36" height="36" class="brand-icon">
+        <span>Faith Kings and Queens</span>
+      </a>
       <nav class="landing-nav" aria-label="Primary">
+        <a href="#story">Why</a>
         <a href="#features">Features</a>
-        <a href="#how">How it works</a>
-        <a href="privacy.html">Privacy</a>
-        <a class="btn btn-primary" href="#download">Download</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary btn-sm" href="#download">Get the app</a>
       </nav>
     </div>
   </header>
 
   <section class="hero">
-    <div>
-      <span class="hero-eyebrow">iOS · Morning rhythm</span>
-      <h1>Seek God first.<br>Then unlock your day.</h1>
+    <div class="hero-copy reveal">
+      <span class="hero-eyebrow">For iPhone · Morning rhythm</span>
+      <h1>You scroll before you pray.<br><em>Flip the order.</em></h1>
       <p class="hero-lead">
-        Faith Kings and Queens combines guided prayer, daily Scripture, and Screen Time app lock —
-        so Instagram and TikTok wait until you’ve spent time with Christ.
+        Faith Kings and Queens is a daily rhythm of prayer and Scripture — with optional app lock
+        so social and entertainment wait until you’ve put Christ first.
       </p>
       <div class="hero-cta" id="download">
-        <a class="btn btn-primary" href="https://apps.apple.com/app/idYOUR_APP_ID" rel="noopener">
-          Download on the App Store
+        <a class="store-badge" href="https://apps.apple.com/app/idYOUR_APP_ID" rel="noopener" aria-label="Download on the App Store">
+          <span class="store-badge-label">Download on the</span>
+          <span class="store-badge-name">App Store</span>
         </a>
-        <a class="btn btn-secondary" href="#how">See how it works</a>
+        <a class="btn btn-secondary" href="#how">How it works</a>
       </div>
-      <p class="hero-note">iPhone only · Uses Apple Screen Time with your permission</p>
+      <p class="hero-note">Your data stays on your device · Screen Time permission required for app lock</p>
     </div>
 
-    <div class="phone-mock" aria-hidden="true">
-      <div class="phone-screen">
-        <span class="mock-pill">Today’s rhythm</span>
-        <p class="mock-title">Good morning — seek Him first</p>
-        <ul class="mock-list">
-          <li><span class="icon">🙏</span> Morning prayer</li>
-          <li><span class="icon">📖</span> Bible reading</li>
-          <li><span class="icon">🔒</span> Social apps locked until done</li>
-          <li><span class="icon">🔥</span> Streak with God</li>
-        </ul>
+    <div class="phone-mock reveal reveal-delay" aria-hidden="true">
+      <div class="phone-frame">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="mock-header">
+            <img src="assets/launch-mark.png" alt="" class="mock-mark" width="28" height="28">
+            <span>Good morning</span>
+          </div>
+          <p class="mock-greeting">Seek Him first</p>
+          <ul class="mock-tasks">
+            <li class="done"><span class="check"></span> Morning prayer</li>
+            <li class="active"><span class="check"></span> Bible reading</li>
+            <li class="locked"><span class="lock"></span> Social apps locked</li>
+          </ul>
+          <div class="mock-streak">🔥 12-day streak with God</div>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <section class="band band-problem" id="story">
+    <div class="band-inner reveal">
+      <div class="band-text">
+        <h2>The phone wins in the first five minutes</h2>
+        <p>Most of us don’t choose distraction — we fall into it. Faith Kings and Queens gives you a gentle structure: pray, read, then unlock what you blocked with intention.</p>
+      </div>
+      <blockquote class="quote-card">
+        <p>“I finally open my Bible before Instagram. Small change, huge peace.”</p>
+        <footer>— Early user</footer>
+      </blockquote>
     </div>
   </section>
 
   <section class="section section-light" id="features">
-    <h2>Built for believers who want their mornings back</h2>
-    <p class="section-intro">
-      Not another generic blocker — a faith-first routine that puts prayer and Scripture ahead of the algorithm.
-    </p>
-    <div class="features">
-      <article class="feature-card">
-        <h3>Morning prayer</h3>
-        <p>Guided check-ins that help you start the day with intention, not notifications.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Daily Bible reading</h3>
-        <p>Short, focused reading built into your rhythm — with progress that actually sticks.</p>
-      </article>
-      <article class="feature-card">
-        <h3>App lock</h3>
-        <p>Choose social and entertainment apps. iOS Screen Time keeps them shielded until tasks are done.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Streaks &amp; journey</h3>
-        <p>Track consistency over time and celebrate showing up for God day after day.</p>
-      </article>
+    <div class="section-wrap reveal">
+      <h2>Everything you need for a faithful morning</h2>
+      <p class="section-intro">One app for prayer, reading, accountability, and focus — designed for believers, not generic productivity.</p>
+      <div class="features">
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🙏</div>
+          <h3>Morning prayer</h3>
+          <p>Guided check-ins so you start with God, not notifications.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">📖</div>
+          <h3>Daily Bible reading</h3>
+          <p>Short readings built into your rhythm, with progress that sticks.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3>App lock</h3>
+          <p>Pick social &amp; entertainment apps. iOS shields them until your tasks are done.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">📈</div>
+          <h3>Streaks &amp; journey</h3>
+          <p>See consistency over time and celebrate showing up for God.</p>
+        </article>
+      </div>
     </div>
   </section>
 
-  <section class="section" id="how">
-    <h2>How it works</h2>
-    <p class="section-intro" style="color: var(--text-muted);">
-      Three steps. Same idea every morning: Christ first, phone second.
-    </p>
-    <div class="steps">
-      <article class="step">
-        <div class="step-num">Step 1</div>
-        <h3>Set your blocked apps</h3>
-        <p>Pick what usually wins your attention — social, entertainment, whatever pulls you off course.</p>
-      </article>
-      <article class="step">
-        <div class="step-num">Step 2</div>
-        <h3>Pray &amp; read</h3>
-        <p>Complete your morning prayer and Bible reading inside Faith Kings and Queens.</p>
-      </article>
-      <article class="step">
-        <div class="step-num">Step 3</div>
-        <h3>Unlock with purpose</h3>
-        <p>Apps unlock as you finish each step — social after prayer, the rest after reading.</p>
-      </article>
+  <section class="section section-dark" id="how">
+    <div class="section-wrap reveal">
+      <h2>How it works</h2>
+      <p class="section-intro muted">Three steps. Same idea every morning.</p>
+      <div class="steps">
+        <article class="step">
+          <div class="step-num">1</div>
+          <h3>Choose what to lock</h3>
+          <p>Select the apps that usually steal your first minutes.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">2</div>
+          <h3>Pray &amp; read</h3>
+          <p>Complete prayer and Bible reading inside the app.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">3</div>
+          <h3>Unlock with purpose</h3>
+          <p>Social unlocks after prayer; the rest after reading — you choose the order.</p>
+        </article>
+      </div>
     </div>
   </section>
 
-  <section class="section section-light">
-    <h2>Ready to seek Him first?</h2>
-    <p class="section-intro">Available on iPhone. Your streak, journal, and settings stay on your device.</p>
-    <a class="btn btn-primary" href="https://apps.apple.com/app/idYOUR_APP_ID" rel="noopener">Get the app</a>
+  <section class="section section-light" id="faq">
+    <div class="section-wrap reveal">
+      <h2>Questions</h2>
+      <dl class="faq">
+        <div class="faq-item">
+          <dt>Does app lock work without Screen Time?</dt>
+          <dd>You grant Apple’s Screen Time / Family Controls permission once. Locking uses Apple’s system shields — we don’t see your passwords or messages.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>Is my prayer and journal data sold?</dt>
+          <dd>No. Core habit data stays on your device. See our <a href="privacy.html">Privacy Policy</a> for AI and analytics details.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>Android?</dt>
+          <dd>Faith Kings and Queens is iPhone-only today because Apple provides the Screen Time APIs we use for app lock.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>Need help?</dt>
+          <dd>Email <a href="mailto:support@faithkingsandqueens.com">support@faithkingsandqueens.com</a> — we read every message.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="cta-band reveal">
+    <div class="cta-band-inner">
+      <h2>Ready to seek Him first?</h2>
+      <p>Download on iPhone and build a morning that honors God before the algorithm.</p>
+      <a class="store-badge store-badge-light" href="https://apps.apple.com/app/idYOUR_APP_ID" rel="noopener">
+        <span class="store-badge-label">Download on the</span>
+        <span class="store-badge-name">App Store</span>
+      </a>
+    </div>
   </section>
 
   <footer class="landing-footer">
-    <div class="footer-links">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="copyright.html">Terms &amp; Copyright</a>
-      <a href="mailto:support@faithkingsandqueens.com">Contact</a>
+    <div class="footer-top">
+      <a class="brand brand-footer" href="#">
+        <img src="assets/app-icon.png" alt="" width="32" height="32" class="brand-icon">
+        <span>Faith Kings and Queens</span>
+      </a>
+      <p class="footer-tagline">Reclaim your phone. Strengthen your faith.</p>
     </div>
-    <p>© 2026 Faith Kings and Queens. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="copyright.html">Terms</a>
+      <a href="mailto:support@faithkingsandqueens.com">support@faithkingsandqueens.com</a>
+    </div>
+    <p class="footer-copy">© 2026 Faith Kings and Queens. All rights reserved.</p>
   </footer>
+
+  <script>
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('is-visible'); }),
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+  </script>
 </body>
 </html>
