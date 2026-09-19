@@ -1,18 +1,33 @@
-# Faith King — Legal (public)
+# Faith Kings and Queens — Website
 
-Public GitHub Pages site for Faith King App Store legal URLs.
+Static site for the **marketing landing page** and **App Store legal pages**.
 
-## Live URLs
+| Page | File |
+|------|------|
+| Landing | [index.html](./index.html) |
+| Privacy | [privacy.html](./privacy.html) |
+| Terms | [copyright.html](./copyright.html) |
+
+## Deploy
+
+See **[DEPLOY.md](./DEPLOY.md)** for GitHub Pages and custom domain setup.
+
+Quick steps:
+
+1. Enable **GitHub Pages** → source **GitHub Actions**
+2. Copy `CNAME.example` → `CNAME` and set your domain
+3. Configure DNS at your registrar
+4. Push to `main` (or run the **Deploy site to GitHub Pages** workflow)
+
+## Public legal repo (legacy)
+
+App Store URLs may still point at:
 
 - https://bigjermaine.github.io/faithking-legal/
-- https://bigjermaine.github.io/faithking-legal/privacy.html
-- https://bigjermaine.github.io/faithking-legal/copyright.html
 
-## Enable GitHub Pages
+After DNS is live, update the app and App Store Connect to use:
 
-1. Open **Settings → Pages**
-2. **Source:** Deploy from a branch
-3. **Branch:** `main` · **Folder:** `/ (root)`
-4. Save and wait ~1 minute
+- https://www.faithkingsandqueens.com/privacy.html
+- https://www.faithkingsandqueens.com/copyright.html
 
-This repository must stay **public** so App Store reviewers can open the links.
+Support: support@faithkingsandqueens.com
