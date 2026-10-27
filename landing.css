@@ -453,6 +453,8 @@ body.landing {
 
 @media (min-width: 640px) { .features { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) { .features { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 640px) { .features.features-six { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .features.features-six { grid-template-columns: repeat(3, 1fr); } }
 
 .feature-card {
   background: #fff;
