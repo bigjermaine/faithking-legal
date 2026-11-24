@@ -472,7 +472,20 @@ a:focus-visible,
   margin: 0 auto;
 }
 
-.section { padding: 3.5rem 1.25rem; position: relative; z-index: 1; }
+#story,
+#features,
+#how,
+#faq,
+#founder,
+#download {
+  scroll-margin-top: 5.25rem;
+}
+
+.section {
+  padding: 4.25rem 1.25rem;
+  position: relative;
+  z-index: 1;
+}
 
 .section-light {
   background: var(--cream);
@@ -547,7 +560,7 @@ a:focus-visible,
   background: rgba(198, 161, 91, 0.14);
 }
 
-.feature-icon svg { width: 20px; height: 20px; }
+.feature-icon svg { width: 22px; height: 22px; }
 
 .feature-card h3 {
   margin: 0 0 0.4rem;
